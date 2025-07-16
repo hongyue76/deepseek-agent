@@ -1,0 +1,30 @@
+# 忽略环境变量文件
+.env
+
+# 忽略虚拟环境
+venv/
+
+# 忽略IDE配置文件
+.vscode/
+.idea/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略可执行文件
+*.exe
+*.bin
+
+# 忽略Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略日志文件
+*.log
+
+# 忽略隧道工具
+ngrok*
+cloudflared*
